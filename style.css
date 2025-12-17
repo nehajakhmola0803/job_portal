@@ -1,0 +1,95 @@
+/* GLOBAL */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #e0f2fe, #fdf2f8);
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+/* CARDS */
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    font-weight: 600;
+    color: #1e293b;
+}
+
+/* BUTTONS */
+.btn {
+    border-radius: 30px;
+    padding: 8px 22px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #16a34a, #22c55e);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(90deg, #dc2626, #ef4444);
+    border: none;
+}
+
+/* FORMS */
+.form-control, textarea, select {
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+/* DASHBOARD CARDS */
+.dashboard-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+}
+
+/* TABLE */
+.table {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* STATUS */
+.status-applied {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.status-accepted {
+    color: #16a34a;
+    font-weight: 600;
+}
+
+.status-rejected {
+    color: #dc2626;
+    font-weight: 600;
+}
